@@ -28,7 +28,7 @@ namespace Proiect_PAW
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormManageBooks());
+            Application.Run(new FormMain());
         }
     }
 }

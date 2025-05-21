@@ -26,7 +26,7 @@ namespace WindowsFormsApp3.Forms
 
             try
             {
-                // Încarcă cărți
+                
                 using (SqlConnection conn = new SqlConnection(connString))
                 using (SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM Books", conn))
                 {
@@ -35,7 +35,7 @@ namespace WindowsFormsApp3.Forms
                     dataGridViewBooks.DataSource = dt;
                 }
 
-                // Încarcă cititori
+              
                 using (SqlConnection conn = new SqlConnection(connString))
                 using (SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM Readers", conn))
                 {
@@ -44,7 +44,7 @@ namespace WindowsFormsApp3.Forms
                     dataGridViewReaders.DataSource = dt;
                 }
 
-                // Încarcă împrumuturi
+               
                 using (SqlConnection conn = new SqlConnection(connString))
                 using (SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM Loans", conn))
                 {

@@ -144,11 +144,11 @@ namespace WindowsFormsApp3.Forms
 
                         if (rows > 0)
                         {
-                            MessageBox.Show("📕 Cartea a fost ștearsă cu tot cu împrumuturi.");
+                            MessageBox.Show(" Cartea a fost ștearsă cu tot cu împrumuturi.");
                         }
                         else
                         {
-                            MessageBox.Show("❗ Cartea nu a putut fi ștearsă (poate nu mai e disponibilă).");
+                            MessageBox.Show(" Cartea nu a putut fi ștearsă (poate nu mai e disponibilă).");
                         }
                     }
                 }

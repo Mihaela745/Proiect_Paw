@@ -56,7 +56,7 @@ namespace WindowsFormsApp3.Forms
             }
             catch (Exception ex)
             {
-                MessageBox.Show("❌ Eroare la salvare: " + ex.Message);
+                MessageBox.Show(" Eroare la salvare: " + ex.Message);
             }
         }
 

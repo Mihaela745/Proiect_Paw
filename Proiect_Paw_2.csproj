@@ -50,6 +50,18 @@
     <Compile Include="Entities\Book.cs" />
     <Compile Include="Entities\Loan.cs" />
     <Compile Include="Entities\Reader.cs" />
+    <Compile Include="Forms\FormAddReader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAddReader.Designer.cs">
+      <DependentUpon>FormAddReader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormManageReaders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormManageReaders.Designer.cs">
+      <DependentUpon>FormManageReaders.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormUpdateBooks.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,10 +92,19 @@
     <Compile Include="Forms\FormManageBooks.Designer.cs">
       <DependentUpon>FormManageBooks.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormUpdateReaders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUpdateReaders.Designer.cs">
+      <DependentUpon>FormUpdateReaders.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\FormAddBooks.resx">
       <DependentUpon>FormAddBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAddReader.resx">
+      <DependentUpon>FormAddReader.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormAllData.resx">
       <DependentUpon>FormAllData.cs</DependentUpon>
@@ -94,8 +115,14 @@
     <EmbeddedResource Include="Forms\FormManageBooks.resx">
       <DependentUpon>FormManageBooks.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormManageReaders.resx">
+      <DependentUpon>FormManageReaders.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormUpdateBooks.resx">
       <DependentUpon>FormUpdateBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUpdateReaders.resx">
+      <DependentUpon>FormUpdateReaders.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

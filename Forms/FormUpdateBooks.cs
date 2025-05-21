@@ -18,7 +18,6 @@ namespace WindowsFormsApp3.Forms
             textBoxAuthor.Text = author;
             textBoxPublishingYear.Text = year.ToString();
 
-            // 🔗 Leagă evenimentele butoanelor
             buttonSubmit.Click += buttonUpdate_Click;
             buttonClose.Click += (s, e) => this.Close();
         }
@@ -42,7 +41,7 @@ namespace WindowsFormsApp3.Forms
                     string query = @"
                         UPDATE Books 
                         SET Title = @Title, Author = @Author, PublishingYear = @Year
-                        WHERE Id = @Id AND IsAvailable = 1"; // ✅ verificare IsAvailable
+                        WHERE Id = @Id AND IsAvailable = 1";
 
                     using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
@@ -54,11 +53,11 @@ namespace WindowsFormsApp3.Forms
                         int rowsAffected = cmd.ExecuteNonQuery();
                         if (rowsAffected > 0)
                         {
-                            MessageBox.Show("✔ Cartea a fost actualizată cu succes.");
+                            MessageBox.Show(" Cartea a fost actualizată cu succes.");
                         }
                         else
                         {
-                            MessageBox.Show("⚠ Cartea nu este disponibilă sau nu a fost găsită.");
+                            MessageBox.Show("Cartea nu este disponibilă sau nu a fost găsită.");
                         }
                     }
                 }
@@ -68,7 +67,7 @@ namespace WindowsFormsApp3.Forms
             }
             catch (Exception ex)
             {
-                MessageBox.Show("❌ Eroare la actualizare: " + ex.Message);
+                MessageBox.Show(" Eroare la actualizare: " + ex.Message);
             }
         }
     }

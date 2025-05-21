@@ -28,5 +28,17 @@ namespace WindowsFormsApp3
             var formAllData=new FormAllData();
             formAllData.Show();
         }
+
+        private void buttonBooks_Click(object sender, EventArgs e)
+        {
+            var formBooks = new FormManageBooks();
+            formBooks.Show();
+        }
+
+        private void buttonReaders_Click(object sender, EventArgs e)
+        {
+            var formReaders=new FormManageReaders();
+            formReaders.Show();
+        }
     }
 }
