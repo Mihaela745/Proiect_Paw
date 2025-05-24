@@ -40,5 +40,17 @@ namespace WindowsFormsApp3
             var formReaders=new FormManageReaders();
             formReaders.Show();
         }
+
+        private void buttonLoans_Click(object sender, EventArgs e)
+        {
+            var formLoans=new FormLoansManagement();
+            formLoans.Show();
+        }
+
+        private void buttonClose_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("pa pa <3");
+            this.Close();
+        }
     }
 }

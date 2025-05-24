@@ -34,6 +34,9 @@
             this.buttonBooks = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.buttonReaders = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.buttonLoans = new System.Windows.Forms.Button();
+            this.buttonClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelOpenDataBase
@@ -94,11 +97,43 @@
             this.buttonReaders.UseVisualStyleBackColor = true;
             this.buttonReaders.Click += new System.EventHandler(this.buttonReaders_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(13, 109);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(170, 16);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Modificarea imprumuturilor: ";
+            // 
+            // buttonLoans
+            // 
+            this.buttonLoans.Location = new System.Drawing.Point(200, 109);
+            this.buttonLoans.Name = "buttonLoans";
+            this.buttonLoans.Size = new System.Drawing.Size(75, 23);
+            this.buttonLoans.TabIndex = 7;
+            this.buttonLoans.Text = "OPEN";
+            this.buttonLoans.UseVisualStyleBackColor = true;
+            this.buttonLoans.Click += new System.EventHandler(this.buttonLoans_Click);
+            // 
+            // buttonClose
+            // 
+            this.buttonClose.Location = new System.Drawing.Point(293, 264);
+            this.buttonClose.Name = "buttonClose";
+            this.buttonClose.Size = new System.Drawing.Size(75, 23);
+            this.buttonClose.TabIndex = 8;
+            this.buttonClose.Text = "Close";
+            this.buttonClose.UseVisualStyleBackColor = true;
+            this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonClose);
+            this.Controls.Add(this.buttonLoans);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.buttonReaders);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.buttonBooks);
@@ -120,6 +155,9 @@
         private System.Windows.Forms.Button buttonBooks;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button buttonReaders;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button buttonLoans;
+        private System.Windows.Forms.Button buttonClose;
     }
 }
 
