@@ -30,12 +30,15 @@
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.buttonAddLoan = new System.Windows.Forms.Button();
+            this.buttonReturn = new System.Windows.Forms.Button();
+            this.buttonClose = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.GridColor = System.Drawing.SystemColors.ActiveCaption;
             this.dataGridView1.Location = new System.Drawing.Point(13, 13);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
@@ -53,11 +56,33 @@
             this.buttonAddLoan.UseVisualStyleBackColor = true;
             this.buttonAddLoan.Click += new System.EventHandler(this.buttonAddLoan_Click);
             // 
+            // buttonReturn
+            // 
+            this.buttonReturn.Location = new System.Drawing.Point(607, 313);
+            this.buttonReturn.Name = "buttonReturn";
+            this.buttonReturn.Size = new System.Drawing.Size(75, 23);
+            this.buttonReturn.TabIndex = 2;
+            this.buttonReturn.Text = "Return";
+            this.buttonReturn.UseVisualStyleBackColor = true;
+            this.buttonReturn.Click += new System.EventHandler(this.buttonReturn_Click);
+            // 
+            // buttonClose
+            // 
+            this.buttonClose.Location = new System.Drawing.Point(374, 385);
+            this.buttonClose.Name = "buttonClose";
+            this.buttonClose.Size = new System.Drawing.Size(75, 23);
+            this.buttonClose.TabIndex = 3;
+            this.buttonClose.Text = "Close";
+            this.buttonClose.UseVisualStyleBackColor = true;
+            this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
+            // 
             // FormLoansManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonClose);
+            this.Controls.Add(this.buttonReturn);
             this.Controls.Add(this.buttonAddLoan);
             this.Controls.Add(this.dataGridView1);
             this.Name = "FormLoansManagement";
@@ -71,5 +96,7 @@
 
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button buttonAddLoan;
+        private System.Windows.Forms.Button buttonReturn;
+        private System.Windows.Forms.Button buttonClose;
     }
 }

@@ -39,26 +39,26 @@
             // dataGridViewCititori
             // 
             this.dataGridViewCititori.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewCititori.Location = new System.Drawing.Point(13, 13);
+            this.dataGridViewCititori.Location = new System.Drawing.Point(12, 13);
             this.dataGridViewCititori.Name = "dataGridViewCititori";
             this.dataGridViewCititori.RowHeadersWidth = 51;
             this.dataGridViewCititori.RowTemplate.Height = 24;
-            this.dataGridViewCititori.Size = new System.Drawing.Size(303, 177);
+            this.dataGridViewCititori.Size = new System.Drawing.Size(397, 346);
             this.dataGridViewCititori.TabIndex = 0;
             // 
             // dataGridViewCarti
             // 
             this.dataGridViewCarti.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewCarti.Location = new System.Drawing.Point(392, 13);
+            this.dataGridViewCarti.Location = new System.Drawing.Point(448, 13);
             this.dataGridViewCarti.Name = "dataGridViewCarti";
             this.dataGridViewCarti.RowHeadersWidth = 51;
             this.dataGridViewCarti.RowTemplate.Height = 24;
-            this.dataGridViewCarti.Size = new System.Drawing.Size(261, 177);
+            this.dataGridViewCarti.Size = new System.Drawing.Size(340, 346);
             this.dataGridViewCarti.TabIndex = 1;
             // 
             // buttonSubmit
             // 
-            this.buttonSubmit.Location = new System.Drawing.Point(159, 240);
+            this.buttonSubmit.Location = new System.Drawing.Point(394, 386);
             this.buttonSubmit.Name = "buttonSubmit";
             this.buttonSubmit.Size = new System.Drawing.Size(75, 23);
             this.buttonSubmit.TabIndex = 2;
@@ -68,7 +68,7 @@
             // 
             // buttonCancel
             // 
-            this.buttonCancel.Location = new System.Drawing.Point(429, 240);
+            this.buttonCancel.Location = new System.Drawing.Point(394, 415);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonCancel.TabIndex = 3;
