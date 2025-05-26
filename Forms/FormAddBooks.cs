@@ -47,9 +47,8 @@ namespace WindowsFormsApp3.Forms
                     conn.Close();
                 }
 
-                MessageBox.Show("📚 Carte adăugată cu succes!");
+                MessageBox.Show(" Carte adăugată cu succes!");
 
-                // Curăță câmpurile
                 textBoxTitle.Clear();
                 textBoxAuthor.Clear();
                 textBoxPublishingYear.Clear();

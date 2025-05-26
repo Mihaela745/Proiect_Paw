@@ -34,16 +34,18 @@
             // labelTitle
             // 
             this.labelTitle.AutoSize = true;
-            this.labelTitle.Location = new System.Drawing.Point(222, 65);
+            this.labelTitle.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTitle.ForeColor = System.Drawing.Color.Purple;
+            this.labelTitle.Location = new System.Drawing.Point(283, 70);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(32, 16);
+            this.labelTitle.Size = new System.Drawing.Size(50, 23);
             this.labelTitle.TabIndex = 0;
             this.labelTitle.Text = "Titlu";
             this.labelTitle.Click += new System.EventHandler(this.labelTitle_Click);
             // 
             // textBoxTitle
             // 
-            this.textBoxTitle.Location = new System.Drawing.Point(353, 59);
+            this.textBoxTitle.Location = new System.Drawing.Point(436, 70);
             this.textBoxTitle.Name = "textBoxTitle";
             this.textBoxTitle.Size = new System.Drawing.Size(100, 22);
             this.textBoxTitle.TabIndex = 1;
@@ -52,16 +54,18 @@
             // labelAuthor
             // 
             this.labelAuthor.AutoSize = true;
-            this.labelAuthor.Location = new System.Drawing.Point(222, 110);
+            this.labelAuthor.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAuthor.ForeColor = System.Drawing.Color.Purple;
+            this.labelAuthor.Location = new System.Drawing.Point(283, 115);
             this.labelAuthor.Name = "labelAuthor";
-            this.labelAuthor.Size = new System.Drawing.Size(38, 16);
+            this.labelAuthor.Size = new System.Drawing.Size(58, 23);
             this.labelAuthor.TabIndex = 2;
             this.labelAuthor.Text = "Autor";
             this.labelAuthor.Click += new System.EventHandler(this.labelAuthor_Click);
             // 
             // textBoxAuthor
             // 
-            this.textBoxAuthor.Location = new System.Drawing.Point(353, 110);
+            this.textBoxAuthor.Location = new System.Drawing.Point(436, 115);
             this.textBoxAuthor.Name = "textBoxAuthor";
             this.textBoxAuthor.Size = new System.Drawing.Size(100, 22);
             this.textBoxAuthor.TabIndex = 3;
@@ -70,16 +74,18 @@
             // labelPublishingYear
             // 
             this.labelPublishingYear.AutoSize = true;
-            this.labelPublishingYear.Location = new System.Drawing.Point(222, 156);
+            this.labelPublishingYear.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPublishingYear.ForeColor = System.Drawing.Color.Purple;
+            this.labelPublishingYear.Location = new System.Drawing.Point(283, 161);
             this.labelPublishingYear.Name = "labelPublishingYear";
-            this.labelPublishingYear.Size = new System.Drawing.Size(98, 16);
+            this.labelPublishingYear.Size = new System.Drawing.Size(147, 23);
             this.labelPublishingYear.TabIndex = 4;
             this.labelPublishingYear.Text = "Anul Publicatiei";
             this.labelPublishingYear.Click += new System.EventHandler(this.labelPublishingYear_Click);
             // 
             // textBoxPublishingYear
             // 
-            this.textBoxPublishingYear.Location = new System.Drawing.Point(353, 156);
+            this.textBoxPublishingYear.Location = new System.Drawing.Point(436, 161);
             this.textBoxPublishingYear.Name = "textBoxPublishingYear";
             this.textBoxPublishingYear.Size = new System.Drawing.Size(100, 22);
             this.textBoxPublishingYear.TabIndex = 5;
@@ -87,28 +93,35 @@
             // 
             // buttonSubmit
             // 
-            this.buttonSubmit.Location = new System.Drawing.Point(290, 208);
+            this.buttonSubmit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.buttonSubmit.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSubmit.ForeColor = System.Drawing.Color.Purple;
+            this.buttonSubmit.Location = new System.Drawing.Point(364, 243);
             this.buttonSubmit.Name = "buttonSubmit";
-            this.buttonSubmit.Size = new System.Drawing.Size(75, 23);
+            this.buttonSubmit.Size = new System.Drawing.Size(99, 37);
             this.buttonSubmit.TabIndex = 6;
-            this.buttonSubmit.Text = "Submit";
-            this.buttonSubmit.UseVisualStyleBackColor = true;
+            this.buttonSubmit.Text = "SUBMIT";
+            this.buttonSubmit.UseVisualStyleBackColor = false;
             this.buttonSubmit.Click += new System.EventHandler(this.buttonSubmit_Click_1);
             // 
             // buttonClose
             // 
-            this.buttonClose.Location = new System.Drawing.Point(290, 237);
+            this.buttonClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.buttonClose.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonClose.ForeColor = System.Drawing.Color.Purple;
+            this.buttonClose.Location = new System.Drawing.Point(364, 303);
             this.buttonClose.Name = "buttonClose";
-            this.buttonClose.Size = new System.Drawing.Size(75, 23);
+            this.buttonClose.Size = new System.Drawing.Size(99, 42);
             this.buttonClose.TabIndex = 7;
             this.buttonClose.Text = "CLOSE";
-            this.buttonClose.UseVisualStyleBackColor = true;
+            this.buttonClose.UseVisualStyleBackColor = false;
             this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
             // 
             // FormAddBooks
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.buttonClose);
             this.Controls.Add(this.buttonSubmit);

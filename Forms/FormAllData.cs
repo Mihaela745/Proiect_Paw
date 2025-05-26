@@ -63,5 +63,10 @@ namespace WindowsFormsApp3.Forms
         {
             this.Close();
         }
+
+        private void FormAllData_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

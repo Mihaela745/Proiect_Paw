@@ -42,94 +42,119 @@
             // labelOpenDataBase
             // 
             this.labelOpenDataBase.AutoSize = true;
-            this.labelOpenDataBase.Location = new System.Drawing.Point(12, 9);
+            this.labelOpenDataBase.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelOpenDataBase.ForeColor = System.Drawing.Color.DarkMagenta;
+            this.labelOpenDataBase.Location = new System.Drawing.Point(178, 46);
             this.labelOpenDataBase.Name = "labelOpenDataBase";
-            this.labelOpenDataBase.Size = new System.Drawing.Size(132, 16);
+            this.labelOpenDataBase.Size = new System.Drawing.Size(183, 23);
             this.labelOpenDataBase.TabIndex = 0;
             this.labelOpenDataBase.Text = "Acces Baza De Date";
             this.labelOpenDataBase.Click += new System.EventHandler(this.label1_Click);
             // 
             // buttonAccesDatabase
             // 
-            this.buttonAccesDatabase.Location = new System.Drawing.Point(150, 6);
+            this.buttonAccesDatabase.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.buttonAccesDatabase.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAccesDatabase.ForeColor = System.Drawing.Color.Purple;
+            this.buttonAccesDatabase.Location = new System.Drawing.Point(515, 46);
             this.buttonAccesDatabase.Name = "buttonAccesDatabase";
-            this.buttonAccesDatabase.Size = new System.Drawing.Size(75, 23);
+            this.buttonAccesDatabase.Size = new System.Drawing.Size(99, 42);
             this.buttonAccesDatabase.TabIndex = 1;
             this.buttonAccesDatabase.Text = "OPEN";
-            this.buttonAccesDatabase.UseVisualStyleBackColor = true;
+            this.buttonAccesDatabase.UseVisualStyleBackColor = false;
             this.buttonAccesDatabase.Click += new System.EventHandler(this.buttonAccesDatabase_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 44);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.DarkMagenta;
+            this.label1.Location = new System.Drawing.Point(178, 94);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(221, 16);
+            this.label1.Size = new System.Drawing.Size(323, 23);
             this.label1.TabIndex = 2;
             this.label1.Text = "Modificarea datelor din lista de carti:";
             // 
             // buttonBooks
             // 
-            this.buttonBooks.Location = new System.Drawing.Point(252, 44);
+            this.buttonBooks.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.buttonBooks.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonBooks.ForeColor = System.Drawing.Color.Purple;
+            this.buttonBooks.Location = new System.Drawing.Point(515, 94);
             this.buttonBooks.Name = "buttonBooks";
-            this.buttonBooks.Size = new System.Drawing.Size(75, 23);
+            this.buttonBooks.Size = new System.Drawing.Size(99, 42);
             this.buttonBooks.TabIndex = 3;
             this.buttonBooks.Text = "OPEN";
-            this.buttonBooks.UseVisualStyleBackColor = true;
+            this.buttonBooks.UseVisualStyleBackColor = false;
             this.buttonBooks.Click += new System.EventHandler(this.buttonBooks_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 79);
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.DarkMagenta;
+            this.label2.Location = new System.Drawing.Point(178, 142);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(133, 16);
+            this.label2.Size = new System.Drawing.Size(203, 23);
             this.label2.TabIndex = 4;
             this.label2.Text = "Modificarea cititorilor:";
             // 
             // buttonReaders
             // 
-            this.buttonReaders.Location = new System.Drawing.Point(158, 76);
+            this.buttonReaders.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.buttonReaders.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonReaders.ForeColor = System.Drawing.Color.Purple;
+            this.buttonReaders.Location = new System.Drawing.Point(515, 142);
             this.buttonReaders.Name = "buttonReaders";
-            this.buttonReaders.Size = new System.Drawing.Size(75, 23);
+            this.buttonReaders.Size = new System.Drawing.Size(99, 42);
             this.buttonReaders.TabIndex = 5;
             this.buttonReaders.Text = "OPEN";
-            this.buttonReaders.UseVisualStyleBackColor = true;
+            this.buttonReaders.UseVisualStyleBackColor = false;
             this.buttonReaders.Click += new System.EventHandler(this.buttonReaders_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 109);
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.DarkMagenta;
+            this.label3.Location = new System.Drawing.Point(179, 190);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(170, 16);
+            this.label3.Size = new System.Drawing.Size(255, 23);
             this.label3.TabIndex = 6;
             this.label3.Text = "Modificarea imprumuturilor: ";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // buttonLoans
             // 
-            this.buttonLoans.Location = new System.Drawing.Point(200, 109);
+            this.buttonLoans.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.buttonLoans.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonLoans.ForeColor = System.Drawing.Color.Purple;
+            this.buttonLoans.Location = new System.Drawing.Point(515, 190);
             this.buttonLoans.Name = "buttonLoans";
-            this.buttonLoans.Size = new System.Drawing.Size(75, 23);
+            this.buttonLoans.Size = new System.Drawing.Size(99, 42);
             this.buttonLoans.TabIndex = 7;
             this.buttonLoans.Text = "OPEN";
-            this.buttonLoans.UseVisualStyleBackColor = true;
+            this.buttonLoans.UseVisualStyleBackColor = false;
             this.buttonLoans.Click += new System.EventHandler(this.buttonLoans_Click);
             // 
             // buttonClose
             // 
-            this.buttonClose.Location = new System.Drawing.Point(293, 264);
+            this.buttonClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.buttonClose.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonClose.ForeColor = System.Drawing.Color.Purple;
+            this.buttonClose.Location = new System.Drawing.Point(352, 314);
             this.buttonClose.Name = "buttonClose";
-            this.buttonClose.Size = new System.Drawing.Size(75, 23);
+            this.buttonClose.Size = new System.Drawing.Size(99, 42);
             this.buttonClose.TabIndex = 8;
-            this.buttonClose.Text = "Close";
-            this.buttonClose.UseVisualStyleBackColor = true;
+            this.buttonClose.Text = "CLOSE";
+            this.buttonClose.UseVisualStyleBackColor = false;
             this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.buttonClose);
             this.Controls.Add(this.buttonLoans);
@@ -142,6 +167,7 @@
             this.Controls.Add(this.labelOpenDataBase);
             this.Name = "FormMain";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FormMain_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

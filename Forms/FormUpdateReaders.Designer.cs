@@ -40,25 +40,31 @@
             // 
             // buttonClose
             // 
-            this.buttonClose.Location = new System.Drawing.Point(250, 250);
+            this.buttonClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.buttonClose.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonClose.ForeColor = System.Drawing.Color.Purple;
+            this.buttonClose.Location = new System.Drawing.Point(355, 340);
             this.buttonClose.Name = "buttonClose";
-            this.buttonClose.Size = new System.Drawing.Size(75, 23);
+            this.buttonClose.Size = new System.Drawing.Size(122, 46);
             this.buttonClose.TabIndex = 19;
             this.buttonClose.Text = "CLOSE";
-            this.buttonClose.UseVisualStyleBackColor = true;
+            this.buttonClose.UseVisualStyleBackColor = false;
             // 
             // buttonSubmit
             // 
-            this.buttonSubmit.Location = new System.Drawing.Point(250, 221);
+            this.buttonSubmit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.buttonSubmit.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSubmit.ForeColor = System.Drawing.Color.Purple;
+            this.buttonSubmit.Location = new System.Drawing.Point(355, 288);
             this.buttonSubmit.Name = "buttonSubmit";
-            this.buttonSubmit.Size = new System.Drawing.Size(75, 23);
+            this.buttonSubmit.Size = new System.Drawing.Size(122, 46);
             this.buttonSubmit.TabIndex = 18;
             this.buttonSubmit.Text = "SUBMIT";
-            this.buttonSubmit.UseVisualStyleBackColor = true;
+            this.buttonSubmit.UseVisualStyleBackColor = false;
             // 
             // textBoxTelefon
             // 
-            this.textBoxTelefon.Location = new System.Drawing.Point(272, 159);
+            this.textBoxTelefon.Location = new System.Drawing.Point(440, 183);
             this.textBoxTelefon.Name = "textBoxTelefon";
             this.textBoxTelefon.Size = new System.Drawing.Size(100, 22);
             this.textBoxTelefon.TabIndex = 17;
@@ -66,15 +72,17 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(207, 159);
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Purple;
+            this.label4.Location = new System.Drawing.Point(320, 181);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 16);
+            this.label4.Size = new System.Drawing.Size(73, 23);
             this.label4.TabIndex = 16;
             this.label4.Text = "Telefon";
             // 
             // textBoxEmail
             // 
-            this.textBoxEmail.Location = new System.Drawing.Point(272, 121);
+            this.textBoxEmail.Location = new System.Drawing.Point(440, 129);
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(100, 22);
             this.textBoxEmail.TabIndex = 15;
@@ -82,15 +90,17 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(207, 121);
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Purple;
+            this.label3.Location = new System.Drawing.Point(321, 127);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 16);
+            this.label3.Size = new System.Drawing.Size(58, 23);
             this.label3.TabIndex = 14;
             this.label3.Text = "Email";
             // 
             // textBoxName
             // 
-            this.textBoxName.Location = new System.Drawing.Point(272, 85);
+            this.textBoxName.Location = new System.Drawing.Point(440, 84);
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(100, 22);
             this.textBoxName.TabIndex = 11;
@@ -98,9 +108,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(207, 88);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Purple;
+            this.label1.Location = new System.Drawing.Point(320, 84);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(43, 16);
+            this.label1.Size = new System.Drawing.Size(59, 23);
             this.label1.TabIndex = 10;
             this.label1.Text = "Nume";
             // 
@@ -108,6 +120,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.buttonClose);
             this.Controls.Add(this.buttonSubmit);

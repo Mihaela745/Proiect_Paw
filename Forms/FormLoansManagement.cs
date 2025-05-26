@@ -105,5 +105,15 @@ namespace WindowsFormsApp3.Forms
         {
             this.Close();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void FormLoansManagement_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

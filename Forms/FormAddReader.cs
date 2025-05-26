@@ -25,7 +25,6 @@ namespace WindowsFormsApp3.Forms
             }
 
             string nume = textBoxName.Text.Trim();
-            string prenume = textBoxPrenume.Text.Trim();
             string email = textBoxEmail.Text.Trim();
             string telefon = textBoxTelefon.Text.Trim();
 
@@ -49,9 +48,8 @@ namespace WindowsFormsApp3.Forms
                     string query = @"INSERT INTO READERS (ID, NAME, EMAIL, PHONE) VALUES (@ID, @NAME, @EMAIL, @PHONE)";
                     SqlCommand command = new SqlCommand(query, connection);
                     command.Parameters.AddWithValue("@ID", Guid.NewGuid());
-                    command.Parameters.AddWithValue("@NAME", nume + " " + prenume); // dacă vrei și prenume
                     command.Parameters.AddWithValue("@EMAIL", email);
-                    command.Parameters.AddWithValue("@PHONE", telefon); // ai scris "TELEFON" în query, dar folosești @PHONE
+                    command.Parameters.AddWithValue("@PHONE", telefon); 
 
                     connection.Open();
                     command.ExecuteNonQuery();
@@ -60,7 +58,6 @@ namespace WindowsFormsApp3.Forms
 
                 MessageBox.Show("Cititor adăugat cu succes!");
                 textBoxName.Clear();
-                textBoxPrenume.Clear();
                 textBoxEmail.Clear();
                 textBoxTelefon.Clear();
             }
@@ -85,6 +82,11 @@ namespace WindowsFormsApp3.Forms
         private void buttonClose_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void buttonSubmit_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

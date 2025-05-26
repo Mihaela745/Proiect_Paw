@@ -133,7 +133,6 @@ namespace WindowsFormsApp3.Forms
                     {
                         cmdDeleteLoans.Parameters.AddWithValue("@BookId", bookId);
                         int loansDeleted = cmdDeleteLoans.ExecuteNonQuery();
-                        // Optional: MessageBox.Show($"{loansDeleted} împrumuturi șterse.");
                     }
 
                     string deleteBookQuery = "DELETE FROM Books WHERE Id = @BookId";
@@ -164,6 +163,11 @@ namespace WindowsFormsApp3.Forms
         private void buttonClose_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void FormManageBooks_Load_1(object sender, EventArgs e)
+        {
+
         }
     }
 

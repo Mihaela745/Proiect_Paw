@@ -78,7 +78,7 @@ namespace WindowsFormsApp3.Forms
             {
                 using (SqlConnection conn = new SqlConnection(connString))
                 {
-                    conn.Open(); // ❗ important
+                    conn.Open();
 
                     Guid bookId = (Guid)dataGridViewCarti.SelectedRows[0].Cells["Id"].Value;
                     Guid readerId = (Guid)dataGridViewCititori.SelectedRows[0].Cells["Id"].Value;
@@ -107,7 +107,7 @@ namespace WindowsFormsApp3.Forms
                             }
 
                             MessageBox.Show("Împrumut adăugat cu succes!");
-                            LoadGrids(); // Reîncarcă grilele
+                            LoadGrids(); 
                         }
                         else
                         {
